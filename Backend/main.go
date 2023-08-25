@@ -8,7 +8,7 @@ import (
 	"net/http"
 
 	_ "github.com/go-sql-driver/mysql"
-	"github.com/synchor/backend/pkg/api/handlers"
+	"github.com/kevinburke/handlers"	
 )
 
 func main() {
