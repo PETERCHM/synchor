@@ -7,8 +7,9 @@ import (
 	"net/http"
 	"sync"
 
-	"github.com/kevinburke/handlers"
-
+	"github.com/cli/go-gh/v2/pkg/repository"
+	"github.com/astaxie/beego"	
+	"github.com/prometheus/common/model"
 )
 
 func GetIPInfoHandler(db *sql.DB) http.HandlerFunc {

@@ -9,9 +9,9 @@ import (
 
 	_ "github.com/go-sql-driver/mysql"
 	"github.com/kevinburke/handlers"	
-	"github.com/PETERCHM/synchor/backend/pkg/repositories"
-	"github.com/PETERCHM/synchor/backend/pkg/services"
-	"github.com/PETERCHM/synchor/backend/pkg/api/models"
+	"github.com/cli/go-gh/v2/pkg/repository"
+	"github.com/astaxie/beego"	
+	"github.com/prometheus/common/model"
 )
 
 func main() {
