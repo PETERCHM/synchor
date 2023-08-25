@@ -1,4 +1,3 @@
-// pkg/api/handlers/ipHandlers.go
 package handlers
 
 import (
@@ -7,9 +6,9 @@ import (
 	"net/http"
 	"sync"
 
-	"github.com/cli/go-gh/v2/pkg/repository"
-	"github.com/astaxie/beego"	
-	"github.com/prometheus/common/model"
+	"github.com/PETERCHM/synchor/backend/pkg/api/models"
+	"github.com/PETERCHM/synchor/backend/pkg/repositories"
+	"github.com/PETERCHM/synchor/backend/pkg/services"
 )
 
 func GetIPInfoHandler(db *sql.DB) http.HandlerFunc {
@@ -32,7 +31,6 @@ func GetIPInfoHandler(db *sql.DB) http.HandlerFunc {
 
 		wg.Wait()
 
-		// Respond with success message
 		w.Header().Set("Content-Type", "application/json")
 		w.WriteHeader(http.StatusOK)
 		w.Write([]byte(`{"message": "Data synchronization complete"}`))

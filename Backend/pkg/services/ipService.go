@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/prometheus/common/model"
+	"github.com/PETERCHM/synchor/backend/pkg/api/models"
 )
 
 func ProcessIPData(data models.IPInfo, wg *sync.WaitGroup) {

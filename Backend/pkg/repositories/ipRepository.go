@@ -7,7 +7,7 @@ import (
 	"net/http"
 	"sync"
 
-	"github.com/prometheus/common/model"
+	"github.com/PETERCHM/synchor/backend/pkg/api/models"
 )
 
 func FetchIPData(db *sql.DB, ch chan<- models.IPInfo, wg *sync.WaitGroup) {
