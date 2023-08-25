@@ -8,10 +8,10 @@ import (
 	"net/http"
 
     _ "github.com/go-sql-driver/mysql"
-	"synchor/backend/pkg/api/handlers"
-    "synchor/backend/pkg/repositories"
-    "synchor/backend/pkg/services"
-    "synchor/backend/pkg/api/models"
+	"github.com/PETERCHM/synchor/backend/pkg/api/handlers"
+    "github.com/PETERCHM/synchor/backend/pkg/repositories"
+    "github.com/PETERCHM/synchor/backend/pkg/services"
+    "github.com/PETERCHM/synchor/backend/pkg/api/models"
 )
 
 func main() {
