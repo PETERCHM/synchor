@@ -7,9 +7,8 @@ import (
 	"net/http"
 	"sync"
 
-	"github.com/synchor/backend/pkg/api/models"
-	"github.com/synchor/backend/pkg/repositories"
-	"github.com/synchor/backend/pkg/services"
+	"github.com/PETERCHM/synchor/backend/pkg/api/handlers"
+
 )
 
 func GetIPInfoHandler(db *sql.DB) http.HandlerFunc {
