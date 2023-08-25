@@ -1,4 +1,4 @@
-module synchor
+module github.com/PETERCHM/synchor
 
 go 1.21.0
 
