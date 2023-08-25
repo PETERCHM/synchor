@@ -7,7 +7,7 @@ import (
 	"net/http"
 	"sync"
 
-	"github.com/PETERCHM/synchor/backend/pkg/api/handlers"
+	"github.com/kevinburke/handlers"
 
 )
 

@@ -8,7 +8,7 @@ import (
 	"net/http"
 
 	_ "github.com/go-sql-driver/mysql"
-	"github.com/PETERCHM/synchor/backend/pkg/api/handlers"
+	"github.com/kevinburke/handlers"	
 	"github.com/PETERCHM/synchor/backend/pkg/repositories"
 	"github.com/PETERCHM/synchor/backend/pkg/services"
 	"github.com/PETERCHM/synchor/backend/pkg/api/models"
